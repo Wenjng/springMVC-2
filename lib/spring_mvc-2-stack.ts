@@ -14,7 +14,7 @@ export class SpringMvc2Stack extends cdk.Stack {
 
     const cluster = new ecs.Cluster(this, "SpringCluster", {
       vpc: vpc,
-      clusterName: "Spring Cluster-1"
+      clusterName: "SpringCluster-1"
     });
 
     // Create a load-balanced Fargate service and make it public
